@@ -46,17 +46,36 @@ button{
 
 }
 
-button:hover{
-
-    background-color: brown;
-
-}
-
 #zerar-btn{
 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px
+    margin-top: 10px;
+    background-color: #000;
+
+}
+
+#aumentar-btn{
+
+background-color: green;
+
+}
+
+#diminuir-btn:hover{
+
+    background-color: brown;
+
+}
+
+#aumentar-btn:hover{
+
+    background-color: rgb(1, 172, 44);
+
+}
+
+#zerar-btn:hover{
+
+    background-color: rgb(34, 34, 34);
 
 }
